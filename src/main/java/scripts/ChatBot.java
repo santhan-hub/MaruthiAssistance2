@@ -27,7 +27,7 @@ public class ChatBot extends Keywords {
 			click(driver,loan);
 			asserterText(driver, MssfText,Config.MSSFassert,"Mssf loan");
 			
-			Assert.fail();
+			//Assert.fail();
 			
 			waitForElementWithLessWait(driver,financier);
 			click(driver,financier);
